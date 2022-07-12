@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="portugues-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimos comando do modulo 02</title>
+
+    <style>
+
+    body{
+        background-color:rgb(155, 164, 171);
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgb(34, 14, 14);
+    }
+
+    main{
+        height: 1200px;
+        min-width: 320px;
+        max-width: 800px;
+        margin:auto;
+        background-color: azure;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+
+    h1{
+        margin-bottom: 70px;
+    }
+    #Espaçamento{
+        text-align: justify;
+        line-height: 1.8em;
+    }
+
+    ul{
+
+        width: 430px;
+        background-color: rgba(33, 126, 169, 0.334);
+        padding: 15px;
+        border-radius: 7px;
+        list-style-position: inside;
+        columns: 2;
+        line-height: 30px;
+        list-style-type: '✔️';
+    }
+
+
+    nav a{
+        text-decoration: none;
+        color:rgb(72, 64, 64);
+        padding: 28px;
+        
+       
+    }
+    
+    nav a:hover{
+        text-decoration: underline;
+        color: rgb(0, 0, 0);
+    }
+
+    nav a:after{
+        content:'\1F517';
+        padding-left: 8px;
+    }
+
+
+    #video{
+        margin-top: 30px;
+        
+        position: relative;
+        padding-bottom: 50%;
+        background-color: rgba(33, 126, 169, 0.334);
+        border-radius: 15px;
+       
+       
+    }
+
+   #video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+   }
+
+
+
+
+    </style>
+</head>
+<body>
+    <main>
+     <h1> Seja bem vindo aos ultimos comandos</h1>
+
+     <h2> Espaçamento entre as linhas</h2>
+     <p id = "Espaçamento"> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sunt totam suscipit ipsa? 
+        Magni saepe velit animi aliquid laboriosam oluptate voluptas error ullam, corporis facilis 
+        possimus aut optio repellendus dolorum?
+     </p>
+
+     <h2>Configurando uma lista</h2>
+        <ul type = "disc">
+            <li> Motorola </li>
+            <li> Paraguay </li>
+            <li> Nokia lumia 520</li>
+            <li> Nokia lumia 420</li>
+            <li> Sansumg J7</li>
+            <li> Sansung J2 Prime</li>
+            <li> Sansung A20</li>
+            <li> Sansung A50</li>
+        </ul>
+
+        <h2>Colocando simbulos pôs frase</h2>
+            <nav>
+                <a href = "#">Ir para o Facebook</a>
+                <a href = "#">Ir ao You tube</a>
+                <a href = "#">Ir para o Instagram</a>
+            </nav>
+
+        <aside>
+            <div id = "video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ODUCNq47ZSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>

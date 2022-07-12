@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body{
+    background-color: antiquewhite;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1#principal{
+    background-color: rgb(186, 172, 151);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    font-weight:bold;
+    font-style: normal;
+    color:rgb(82, 70, 51);
+    text-align: center;
+    text-shadow: 6px, 6px, 6px, 6px;
+}
+
+
+h1#ingresos{
+    background-color: rgb(186, 172, 151);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    font-weight:bold;
+    font-style: normal;
+    color:rgb(82, 70, 51);
+    text-align: center;
+    text-shadow: 6px, 6px, 6px, 6px;
+}
+
+.sobre{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.0em;
+    font-weight:bold;
+    font-style: normal;
+    color:rgb(130, 135, 49);
+}
+
+.produçao{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.9em;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(130, 135, 49);
+    text-align: center;
+
+
+}
+
+.barato{
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ font-size: 1.9em ;
+ font-weight: bold;
+ font-style: normal;
+ color:rgb(56, 135, 49);
+}
+
+.intermediario{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.9em ;
+    font-weight: bold;
+    font-style: normal;
+    color:rgb(135, 131, 49);
+   }
+ 
+   .caro{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.9em ;
+    font-weight: bold;
+    font-style: normal;
+    color:rgb(135, 49, 49);
+   }
+
+
+
+    
+
+
